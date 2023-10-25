@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANCALA</title>
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+
+<body>
+    <div id="winner">
+        <p id="winnerName"></p>
+    </div>
+    <div id="game">
+        <img id="logo" src="../img/logo.png">
+        <h1>MANCALA</h1>
+        <div id="player0"></div>
+        <div id="board">
+            <div id="div13" class="player1">
+                <canvas id="13"></canvas>
+            </div>
+            <div id="div0" class="hole">
+                <canvas id="0"></canvas>
+            </div>
+            <div id="div1" class="hole">
+                <canvas id="1"></canvas>
+            </div>
+            <div id="div2" class="hole">
+                <canvas id="2"></canvas>
+            </div>
+            <div id="div3" class="hole">
+                <canvas id="3"></canvas>
+            </div>
+            <div id="div4" class="hole">
+                <canvas id="4"></canvas>
+            </div>
+            <div id="div5" class="hole">
+                <canvas id="5"></canvas>
+            </div>
+            <div id="div12" class="hole">
+                <canvas id="12"></canvas>
+            </div>
+            <div id="div11" class="hole">
+                <canvas id="11"></canvas>
+            </div>
+            <div id="div10" class="hole">
+                <canvas id="10"></canvas>
+            </div>
+            <div id="div9" class="hole">
+                <canvas id="9"></canvas>
+            </div>
+            <div id="div8" class="hole">
+                <canvas id="8"></canvas>
+            </div>
+            <div id="div7" class="hole">
+                <canvas id="7"></canvas>
+            </div>
+            <div id="div6" class="player2">
+                <canvas id="6"></canvas>
+            </div>
+        </div>
+        <div id="player1"></div>
+        <img  src="../img/pinkMarble.png">
+        <img  src="../img/orangeMarble.png">
+        <img  src="../img/blueMarble.png">
+        <img  src="../img/greenMarble.png">
+        <img  src="../img/purpleMarble.png">
+    </div>
+    <button type="submit" id="logout" onclick="logOut()">log out</button>
+    <button type="submit" id="newGame" onclick="newGame()">new game</button>
+</body>
+<script src="../javaScript/app.js"></script>
+<!-- <script src="../javaScript/login.js"></script> -->
+
+</html>

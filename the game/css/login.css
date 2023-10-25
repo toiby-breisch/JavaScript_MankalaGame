@@ -1,0 +1,89 @@
+body {
+    background-image: url("../img/background.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    height: 200px;
+    width: 260px;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+form {
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    transition: 1s;
+}
+
+#h1FormLogIn,
+#h1FormSignUp {
+    margin: 5%;
+    padding: 2%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 70%;
+    margin: 3%;
+    padding: 2%;
+    border-radius: 3px;
+}
+
+button {
+    width: 75%;
+    margin: 2%;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: 3px solid rgb(51, 51, 235);
+    border-radius: 3px;
+}
+
+#formIdSignUp #reset,
+#logInBottom {
+    margin-bottom: 10%;
+}
+
+#reset {
+    background-color: rgb(199, 61, 199);
+    border: 3px solid rgb(145, 44, 145);
+}
+
+#signUpLink {
+    background-color: rgb(66, 161, 190);
+    border: 3px solid rgb(50, 98, 112);
+}
+
+#logInLink,
+#login {
+    background-color: rgb(71, 184, 67);
+    border: 3px solid rgb(64, 129, 62);
+}
+
+a {
+    text-decoration: none;
+    width: 75%;
+    margin: 2%;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#formIdSignIn input {
+    margin: 1%;
+    padding: 2%;
+}
