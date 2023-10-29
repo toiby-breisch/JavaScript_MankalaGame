@@ -9,9 +9,6 @@ body {
     width: 250px;
     margin: 50px;
     margin-bottom: 0;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* justify-content: center; */
 }
 
 #board {
@@ -27,66 +24,7 @@ body {
     padding: 30px;
 }
 
-/* #hole1 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-    display: flex;
-}
 
-#hole2 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole3 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole4 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole5 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole6 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole7 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole8 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole9 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole10 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole11 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-}
-
-#hole12 {
-    background-color: rgb(226, 184, 133);
-    border-radius: 100px;
-} */
 
 h1 {
     color: rgb(39, 105, 107);
@@ -94,20 +32,17 @@ h1 {
     margin: 0 auto 50px auto;
     text-align: center;
     font-size: 6em;
-    /* display: inline; */
 }
 
 .hole {
     background-color: rgb(226, 184, 133);
     border-radius: 100px;
-    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: xx-large;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    /* z-index: 3; */
 }
 
 .player1 {
@@ -135,28 +70,15 @@ h1 {
     font-weight: bold;
 }
 
-
-
-
 img {
     width: 40px;
     height: 40px;
 }
 
-/* innertxt {
-    font-size: large;
-    font-weight: bold;
-
-} */
 canvas {
     width: 100%;
     height: 100%;
 }
-
-/* .hole{
-    z-index: 3;
-} */
-
 
 .player1>canvas>img {
     width: 200px;
@@ -169,11 +91,7 @@ canvas {
     margin: 50px auto;
     text-align: center;
     font-weight: bold;
-    /* visibility: hidden; */
-    /* display: none; */
 }
-
-
 
 button {
     width: 150px;
@@ -191,13 +109,7 @@ button:hover {
 }
 
 p {
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;
-    height: 80px;
-    margin: 0;
-    color: aliceblue; */
     text-align: center;
-    /* margin: 0; */
     position: absolute;
     background-color: aliceblue;
     opacity: 0.7;
